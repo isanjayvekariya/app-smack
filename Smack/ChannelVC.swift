@@ -12,7 +12,6 @@ class ChannelVC: UIViewController {
     
     // Outlets
     @IBOutlet weak var loginBtn: UIButton!
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,5 +21,7 @@ class ChannelVC: UIViewController {
     @IBAction func loginBtnPresed(_ sender: Any) {
         performSegue(withIdentifier: TO_LOGIN, sender: nil)
     }
+    
+    @IBAction func prepareForUnwind(segue: UIStoryboardSegue) {}
     
 }
