@@ -9,9 +9,9 @@
 import Foundation
 import Alamofire
 
-class AuthService {
+class AuthService: NSObject {
 
-    let instance = AuthService()
+    static let instance = AuthService()
     
     let defaults = UserDefaults.standard
     
@@ -42,7 +42,7 @@ class AuthService {
         }
     }
     
-    func registerUser(email: String, password: String, completion: CompletionHandler) {
+    func registerUser(email: String, password: String, completion: @escaping CompletionHandler) {
         
         let lowerCaseEmail = email.lowercased()
         
