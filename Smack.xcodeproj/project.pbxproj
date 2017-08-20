@@ -15,6 +15,8 @@
 		3C0A84681F4945F400EBB4DF /* AuthServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0A84661F493AE700EBB4DF /* AuthServices.swift */; };
 		3C0A846A1F494A1B00EBB4DF /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0A84691F494A1B00EBB4DF /* RoundedButton.swift */; };
 		3C0A846C1F495CE500EBB4DF /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0A846B1F495CE500EBB4DF /* UserDataService.swift */; };
+		3C0A846E1F49674A00EBB4DF /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0A846D1F49674A00EBB4DF /* AvatarCell.swift */; };
+		3C0A84701F49697A00EBB4DF /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0A846F1F49697A00EBB4DF /* AvatarPickerVC.swift */; };
 		3C0CB2EA1F47CAB7004AA4FC /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0CB2E91F47CAB7004AA4FC /* ChatVC.swift */; };
 		3C0CB2EC1F47CACB004AA4FC /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0CB2EB1F47CACB004AA4FC /* ChannelVC.swift */; };
 		3C0CB2EE1F47D366004AA4FC /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0CB2ED1F47D366004AA4FC /* GradientView.swift */; };
@@ -38,6 +40,8 @@
 		3C0A84661F493AE700EBB4DF /* AuthServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthServices.swift; sourceTree = "<group>"; };
 		3C0A84691F494A1B00EBB4DF /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		3C0A846B1F495CE500EBB4DF /* UserDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
+		3C0A846D1F49674A00EBB4DF /* AvatarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
+		3C0A846F1F49697A00EBB4DF /* AvatarPickerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		3C0CB2E91F47CAB7004AA4FC /* ChatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		3C0CB2EB1F47CACB004AA4FC /* ChannelVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		3C0CB2ED1F47D366004AA4FC /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
@@ -113,6 +117,7 @@
 				3C0CB2EB1F47CACB004AA4FC /* ChannelVC.swift */,
 				3C0CB2F21F47E9CF004AA4FC /* LoginVC.swift */,
 				3C0CB2F41F47F470004AA4FC /* CreateAccountVC.swift */,
+				3C0A846F1F49697A00EBB4DF /* AvatarPickerVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -122,6 +127,7 @@
 			children = (
 				3C0CB2ED1F47D366004AA4FC /* GradientView.swift */,
 				3C0A84691F494A1B00EBB4DF /* RoundedButton.swift */,
+				3C0A846D1F49674A00EBB4DF /* AvatarCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -302,7 +308,9 @@
 				3C0A51D21F47C89B0003FCB3 /* AppDelegate.swift in Sources */,
 				3C0A84681F4945F400EBB4DF /* AuthServices.swift in Sources */,
 				3C0A51E71F47C9510003FCB3 /* SWRevealViewController.m in Sources */,
+				3C0A846E1F49674A00EBB4DF /* AvatarCell.swift in Sources */,
 				3C0CB2F11F47E37F004AA4FC /* Constants.swift in Sources */,
+				3C0A84701F49697A00EBB4DF /* AvatarPickerVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
