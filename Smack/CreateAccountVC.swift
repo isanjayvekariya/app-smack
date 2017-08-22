@@ -12,6 +12,7 @@ class CreateAccountVC: UIViewController {
     
     // Outlets
     @IBOutlet weak var usernameTxt: UITextField!
+    
     @IBOutlet weak var emailTxt: UITextField!
     @IBOutlet weak var passTxt: UITextField!
     @IBOutlet weak var userImg: UIImageView!
@@ -82,7 +83,7 @@ class CreateAccountVC: UIViewController {
         let b = CGFloat(arc4random_uniform(255)) / 255
         
         bgColor = UIColor(red: r, green: g, blue: b, alpha: 1)
-        
+        avatarColor = "[\(r), \(g), \(b), 1]"
         UIView.animate(withDuration: 0.3) {
             self.userImg.backgroundColor = self.bgColor
         }
