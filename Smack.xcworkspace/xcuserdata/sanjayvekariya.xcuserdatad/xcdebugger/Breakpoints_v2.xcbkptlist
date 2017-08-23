@@ -58,7 +58,7 @@
                   moduleName = "Smack"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/sanjayvekariya/Desktop/iOS-Learning/Apps/Smack/Smack/AuthServices.swift"
-                  timestampString = "525221868.836752"
+                  timestampString = "525222442.521213"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "111"
@@ -73,7 +73,7 @@
                   moduleName = "Smack"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/sanjayvekariya/Desktop/iOS-Learning/Apps/Smack/Smack/AuthServices.swift"
-                  timestampString = "525221868.839112"
+                  timestampString = "525222442.522627"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "112"
@@ -81,6 +81,22 @@
                   offsetFromSymbolStart = "27">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Smack/ChatVC.swift"
+            timestampString = "525222280.449139"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

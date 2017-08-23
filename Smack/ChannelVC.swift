@@ -13,6 +13,7 @@ class ChannelVC: UIViewController {
     // Outlets
     @IBOutlet weak var loginBtn: UIButton!
     @IBOutlet weak var userImg: CircleImage!
+    @IBAction func prepareForUnwind(segue: UIStoryboardSegue) {}
     
 
     override func viewDidLoad() {
@@ -53,6 +54,4 @@ class ChannelVC: UIViewController {
             userImg.backgroundColor = UIColor.clear
         }
     }
-    
-    @IBAction func prepareForUnwind(segue: UIStoryboardSegue) {}
 }
